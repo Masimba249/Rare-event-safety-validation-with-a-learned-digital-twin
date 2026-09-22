@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>rsv_hw</name>
+  <version>0.1.0</version>
+  <description>
+    Hardware interface for rare-event safety validation with a learned digital
+    twin: a mission recorder that writes the training-data schema, and a
+    scenario runner that replays stress-test findings on the robot.
+  </description>
+  <maintainer email="Masimba249@gmail.com">Masimba249</maintainer>
+  <license>MIT</license>
+
+  <depend>rclpy</depend>
+  <depend>geometry_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>sensor_msgs</depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
